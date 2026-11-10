@@ -3,6 +3,9 @@ name: AJAZ MUSIC - Android Debug Build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - ajaz-main
 
 permissions:
   contents: read
